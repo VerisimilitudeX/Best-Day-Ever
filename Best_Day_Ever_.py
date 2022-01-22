@@ -1,10 +1,3 @@
-"""
-LESSON: 2.2 - Conditionals (Else)
-EXERCISE: Best Day Ever
-"""
-
-#### ---- QUESTION 1---- ####
-
 print("You wake up feeling great. Something tells you this day is going to be amazing!")
 print("The first thing you do is try to get to school.")
 print("Do you...")
@@ -35,10 +28,7 @@ elif user_choice == "c":
     print("Luckily, it's friendly. It just wanted to say hey.")
 
 # Add an ELSE-clause that handles incorrect input.
-# Add your own version of what happens in that case.
-# For example: You're not sure how you got to school.
-#              You just closed your eyes and there you were.
-#              You seem to have spontaneously developed the ability to teleport!
+
 else:
     print("You seem to have spontaneously developed the ability to teleport!")
     print("You just closed your eyes and there you were.")
@@ -70,11 +60,7 @@ elif user_choice == "n":
     print("The class watches a movie instead.")
 
 # Add an ELSE-clause for incorrect input.
-# Add your own version of what happens in that case.
-# For example: Well, did you study or didn't you?
-#              The world shatters because of this paradox of indecision.
-#              It re-forms into a world where you never had a scheduled quiz.
-#              The class watches a movie instead.
+
 else:
     print("The world shatters because of this paradox of indecision.")
     print("Well, did you study or didn't you?")
@@ -119,11 +105,7 @@ elif user_choice == "d":
     print("Sometimes the best days are when you just kick back and relax.")
 
 # Add another ELSE-clause for incorrect input.
-# Add your own version of what happens in that case.
-# For example: You discover a crack in the fabric of space-time.
-#              It seems you have strange reality-warping powers where you don't have to take the options offered to you.
-#              You re-make the universe based on your own whims.
-#              ...It turns out to be fairly similar to this one.
+
 else:
     print("It seems you have strange reality-warping powers where you don't have to take the options offered to you.")
     print("You discover a crack in the fabric of space-time.")
@@ -134,6 +116,3 @@ else:
 #### ---- CONCLUSION ---- ####
 
 print("In the end, this will truly go down in history as the most epic of days.")
-
-
-# Turn in your Coding Exercise.
