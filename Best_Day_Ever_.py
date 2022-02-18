@@ -7,11 +7,6 @@ print("  c) Get someone to drive me")
 user_choice = input("Choose (a / b / c): ")
 print()
 
-
-#### ---- RE-STRUCTURE 1 ---- ####
-
-# Change the IF conditionals below into a single
-# conditional with IF and ELIF clauses
 if user_choice == "a":
     print("You missed the bus. ...But your friend comes by just then.")
     print("It seems she's just invented a jetpack and wants you to test it!")
@@ -27,16 +22,11 @@ elif user_choice == "c":
     print("On the way there, you can't help but notice the live velociraptor keeping pace with the car!")
     print("Luckily, it's friendly. It just wanted to say hey.")
 
-# Add an ELSE-clause that handles incorrect input.
 
 else:
     print("You seem to have spontaneously developed the ability to teleport!")
     print("You just closed your eyes and there you were.")
     print("You're not sure how you got to school.")
-
-
-
-#### ---- QUESTION 2 ---- ####
 
 print()
 print("There's a quiz today. ...Did you study for it?")
@@ -45,11 +35,6 @@ print("  n) ...Whoops, I forgot.")
 user_choice = input("Choose (y / n): ")
 print()
 
-
-#### ---- RE-STRUCTURE 2 ---- ####
-
-# Change these IF conditionals into a single
-# conditional with IF and ELIF clauses
 if user_choice == "y":
     print("You studied super hard and you aced the test!")
     print("Congrats, you got the highest score! All your friends got pretty good scores too.")
@@ -59,17 +44,11 @@ elif user_choice == "n":
     print("The teacher decided you were way too smart for that quiz.")
     print("The class watches a movie instead.")
 
-# Add an ELSE-clause for incorrect input.
-
 else:
     print("The world shatters because of this paradox of indecision.")
     print("Well, did you study or didn't you?")
     print("It re-forms into a world where you never had a scheduled quiz.")
     print("The class watches a movie instead.")
-
-
-
-#### ---- QUESTION 3 ---- ####
     
 print()
 print("What do you want to do after school?")
@@ -80,11 +59,6 @@ print("  d) Just go home")
 user_choice = input("Choose (a / b / c / d): ")
 print()
 
-
-#### ---- RE-STRUCTURE 3 ---- ####
-
-# Change these last IF conditionals into a single
-# conditional with IF and ELIF clauses
 if user_choice == "a":
     print("You totally rock that soccer game, scoring the game-winning goal deep in extra time!")
     print("A professional soccer recruiter notices you and is very impressed.")
@@ -104,15 +78,10 @@ elif user_choice == "d":
     print("You don't have any homework, so you can watch the whole thing.")
     print("Sometimes the best days are when you just kick back and relax.")
 
-# Add another ELSE-clause for incorrect input.
-
 else:
     print("It seems you have strange reality-warping powers where you don't have to take the options offered to you.")
     print("You discover a crack in the fabric of space-time.")
     print("You re-make the universe based on your own whims.")
     print("...It turns out to be fairly similar to this one.")
-
-
-#### ---- CONCLUSION ---- ####
 
 print("In the end, this will truly go down in history as the most epic of days.")
